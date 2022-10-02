@@ -1,0 +1,130 @@
+.how-the-app-main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-line {
+    width: 100%;
+    border: 3px solid #E4E4E4;
+    background-color: #E4E4E4;
+}
+
+.how-the-app-main-text {
+    font-family: var(--font-family-monsterrat);
+    font-weight: 600;
+    color: var(--text-color-black);
+    padding: 49px 0 65px;
+}
+
+.how-the-app-main-text,
+.h3-main-create {
+    font-size: 1.5rem;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+}
+
+.main-section-create-explore {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: var(--font-family-monsterrat);
+}
+
+.h3-main-create-explore {
+    color: var(--background-text-color);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.h2-main-create-explore {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: var(--text-color-h);
+    padding: 0 38px;
+    margin-bottom: 40px;
+}
+
+.p-main-create-explore {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: var(--text-color-gray);
+    padding: 0 78px;
+}
+
+.div-create-img-explore {
+    background-image: url('../images/RectangleTel.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    min-width: 280px;
+    max-width: 320px;
+    width: 100%;
+    min-height: 525px;
+    max-height: 600px;
+    height: 100%;
+}
+
+@media screen and (min-width: 576px) {
+    .how-the-app-main-text {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .main-line {
+        align-self: center;
+        width: 884px;
+    }
+
+    .how-the-app-main-text {
+        font-family: var(--font-family-poppins);
+        font-size: 2.75rem;
+        padding: 72.09px 0 59px;
+    }
+
+    .main-section-create-explore {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .div-create-img-explore {
+        background-image: url('../images/Rectangle992.png');
+        background-size: 90%;
+        max-width: 600px;
+        max-height: 838px;
+        width: 50%;
+    }
+
+    .div-create-explore-text {
+        flex-direction: column;
+        width: 50%;
+        text-align: start;
+        margin-top: 80px;
+    }
+
+    .h3-main-create-explore {
+        margin-bottom: 17px;
+    }
+
+    .h2-main-create-explore {
+        padding: 0;
+        margin-bottom: 27px;
+    }
+
+    .p-main-create-explore {
+        padding: 0;
+    }
+}
+

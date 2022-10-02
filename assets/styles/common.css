@@ -1,0 +1,19 @@
+:root {
+    --background-text-color: #FA4A0C;
+    --text-color-h: #252B42;
+    --text-color-gray: #737373;
+    --text-color: white;
+    --text-color-black: black;
+    --text-color-h4: #BDBDBD;
+    --font-family-monsterrat: 'Monsterrat', sans-serif;
+    --font-family-roboto: 'Roboto', sans-serif;
+    --font-family-poppins: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}

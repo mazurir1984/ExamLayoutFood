@@ -1,0 +1,15 @@
+.explore-img {
+    background-image: url('../images/RectangleMobile2.png');
+}
+
+@media screen and (min-width: 992px) {
+    .explore-section {
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+
+    .explore-img {
+        background-image: url('../images/Rectangle922lastTel.png');
+    }
+}
